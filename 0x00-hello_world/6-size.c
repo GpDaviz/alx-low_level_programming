@@ -1,4 +1,5 @@
 #include <stdio.h>
+gcc size.c -o size
 /**
  * main - A program that print the size of various types on the computer
  * Return - Always 0 (Success)
