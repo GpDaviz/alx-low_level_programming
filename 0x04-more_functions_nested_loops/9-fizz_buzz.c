@@ -8,7 +8,7 @@
  * Fizz for multiples of 3, Buzz for multiples of 5,
  * and FizzBuzz for multiples of both
  *
- * Return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
