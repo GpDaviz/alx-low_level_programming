@@ -4,7 +4,7 @@
  * print_diagonal - Write a function that draws a diagonal line on the terminal
  * @n: input variable
  *
- * Return: 0
+ * Return: void
  */
 
 
@@ -23,6 +23,5 @@ void print_diagonal(int n)
 		_putchar('\\');
 		_putchar('\n');
 	}
-	return (0);
 
 }
