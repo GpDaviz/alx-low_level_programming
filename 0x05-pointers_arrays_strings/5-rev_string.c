@@ -4,6 +4,7 @@
  * rev_string - Print a string reverser
  *
  *@s: Pointer pointing to a string
+ *
  */
 
 void rev_string(char *s)
