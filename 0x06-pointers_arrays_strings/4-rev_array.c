@@ -6,7 +6,6 @@
  * @a: array of integers
  * @n: number of elements in array
  *
- * REeturn: 0
  */
 
 void reverse_array(int *a, int n)
@@ -20,5 +19,4 @@ void reverse_array(int *a, int n)
 		a[p] = a[n - p - 1];
 		a[n - p - 1] = o;
 	}
-	return (0);
 }
