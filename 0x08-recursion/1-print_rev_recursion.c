@@ -3,7 +3,8 @@
 /**
  * _print_rev_recursion - Write a function that prints a string in reverse
  *
- * @s: sting in reverse
+ * @s: first value
+ *
  *
  */
 void _print_rev_recursion(char *s);
