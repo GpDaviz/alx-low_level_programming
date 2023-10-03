@@ -18,12 +18,6 @@ void print_entry(unsigned long int e_entry, unsigned char *e_ident);
 void close_elf(int elf);
 
 /**
- * God'spower coding with ALX 
- * coding getting touch 
- * but gonna say thanks ALX
- */
-
-/**
  * check_elf - Checks if a file is an ELF file.
  * @e_ident: A pointer to an array containing the ELF magic numbers.
  *
