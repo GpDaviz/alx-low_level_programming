@@ -8,21 +8,21 @@
 
 void execute_mycommand(const char *mycommand);
 {
-	pid_t child_pid =fork( );
+	pid_t child_pid = fork();
 
 	if (child_pid == -1)
 	{
 		perror("fork");
-		exit (EXIT_FAILURE);
+		exit(EXIT_FAILURE);
 	}
-	else if (child_pid ==0)
+	else if (child_pid == 0)
 	{
-		execev (mycommand, mycommand, (char *)NULL);
+		execev(mycommand, mycommand, (char *)NULL);
 		perror("execve");
 		exit(EXIT_FAILURE);
 	}
 	else
 	{
-		wait (NULL);
+		wait(NULL);
 	}
 }
